@@ -1,5 +1,34 @@
 # Changelog
 
+## [2.0.0](https://github.com/Goose97/timber.nvim/compare/v1.0.0...v2.0.0) (2024-12-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename API buffer.clear_logs to buffer.clear_captured_logs
+
+### Features
+
+* **actions:** add action to toggle comment log statements ([9d8b973](https://github.com/Goose97/timber.nvim/commit/9d8b97373ac55fc095479092e227ffc2417a1921))
+* **buffer:** add min width for floating win ([877f231](https://github.com/Goose97/timber.nvim/commit/877f231d10ff59c55aacaa6ebeb7876e60ccffb7))
+* **buffer:** allow to configure options for the float buffer ([5bf403f](https://github.com/Goose97/timber.nvim/commit/5bf403f9382fbf6ac8da7e6a7fe811abb139e23a))
+* **c:** add C language support ([8e94434](https://github.com/Goose97/timber.nvim/commit/8e944346e5ee9118dcc4e71a6af16b7947d255de))
+* **core:** add clearing log statements action ([#5](https://github.com/Goose97/timber.nvim/issues/5)) ([a2faec8](https://github.com/Goose97/timber.nvim/commit/a2faec8a7525d49a2e033ce54246cd50a4fb9021))
+* **cpp:** add C++ language support ([0f5d4ab](https://github.com/Goose97/timber.nvim/commit/0f5d4ab19dd6d055c6e1ebc111a04f391f8f3b87))
+* handle more log cases ([2e56b52](https://github.com/Goose97/timber.nvim/commit/2e56b52d92c9ceb87210e8e7e952f482b054f877))
+* **highlight:** add highlight group for log statements line ([0584dba](https://github.com/Goose97/timber.nvim/commit/0584dbaf0a1b9fc1185485199e6760f102fa6f4b))
+* **javascript:** stricter call_expression ([235062f](https://github.com/Goose97/timber.nvim/commit/235062f45f40b88b5b1f6b8b15e3b4166a5be775))
+* **javascript:** support log above for if and while statement ([797aa81](https://github.com/Goose97/timber.nvim/commit/797aa814b18e43b674de4bc7422347b7e6030ebe))
+* **python:** add Python language support ([27ed6ff](https://github.com/Goose97/timber.nvim/commit/27ed6ff923f381495aad4d11e8846e97219ba66f))
+* rename API buffer.clear_logs to buffer.clear_captured_logs ([0f7aacf](https://github.com/Goose97/timber.nvim/commit/0f7aacf600304eca74dc87573d4323484cedb897))
+* **watcher:** display total entries in floating window footer ([0970c7d](https://github.com/Goose97/timber.nvim/commit/0970c7dfae67bcc5588ec5d9b159292d97c2db03))
+
+
+### Bug Fixes
+
+* highlight group regression ([9d8514e](https://github.com/Goose97/timber.nvim/commit/9d8514ee3421de081567ae62a7718dfa6d845709))
+* typo ([639e23b](https://github.com/Goose97/timber.nvim/commit/639e23b5562cd082b3908bdfef2f0cddbeb6a63e))
+
 ## 1.0.0 (2024-11-22)
 
 
