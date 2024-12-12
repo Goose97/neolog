@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.1.0](https://github.com/Goose97/timber.nvim/compare/v2.0.0...v2.1.0) (2024-12-12)
+
+
+### Features
+
+* **buffers:** make float window at least as wide as title ([b8dbf22](https://github.com/Goose97/timber.nvim/commit/b8dbf2223649d7b5bf47d6ea56c0d77acc49129e))
+* **odin:** add Odin language support ([#13](https://github.com/Goose97/timber.nvim/issues/13)) ([862c5f9](https://github.com/Goose97/timber.nvim/commit/862c5f9ed6478ebf03f191aaa41f33bea507c055))
+* **odin:** change default template to printfln instead of printf ([#13](https://github.com/Goose97/timber.nvim/issues/13)) ([b516f54](https://github.com/Goose97/timber.nvim/commit/b516f545e53513e1eeb972253e7a3e2d775023d4))
+
+
+### Bug Fixes
+
+* **watcher:** allow capture log in the middle of the line ([7cb8f07](https://github.com/Goose97/timber.nvim/commit/7cb8f076abefe3806a2295205315fb2b0dd73a9c))
+
 ## [2.0.0](https://github.com/Goose97/timber.nvim/compare/v1.0.0...v2.0.0) (2024-12-09)
 
 
