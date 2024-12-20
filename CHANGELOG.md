@@ -1,5 +1,36 @@
 # Changelog
 
+## [2.1.0](https://github.com/Goose97/timber.nvim/compare/v2.0.0...v2.1.0) (2024-12-20)
+
+
+### Features
+
+* **actions:** add Kotlin language support ([8ff42b0](https://github.com/Goose97/timber.nvim/commit/8ff42b03c052012e379e14de49de740389449e3f))
+* **actions:** allow custom placeholders ([#17](https://github.com/Goose97/timber.nvim/issues/17)) ([9e86494](https://github.com/Goose97/timber.nvim/commit/9e864943a57fd089e3cc37ebff0c01315caad548))
+* **bash:** add Bash language support ([83335a0](https://github.com/Goose97/timber.nvim/commit/83335a0ff75630c277faf0e9f46fdeb242777a1a))
+* **buffers:** add option to sort log entries in float window ([#19](https://github.com/Goose97/timber.nvim/issues/19)) ([699ee87](https://github.com/Goose97/timber.nvim/commit/699ee871585981c4bf86dcc8483b68ac3f6faabb))
+* **buffers:** make float window at least as wide as title ([b8dbf22](https://github.com/Goose97/timber.nvim/commit/b8dbf2223649d7b5bf47d6ea56c0d77acc49129e))
+* **buffers:** make separator lines in floating win virtual text ([134e821](https://github.com/Goose97/timber.nvim/commit/134e8219cca5f709b832b70dae531e27eb4c70eb))
+* **lua:** support variables in return statement ([cb2b22d](https://github.com/Goose97/timber.nvim/commit/cb2b22dc12474b838a012756ca6d21bafd22f7ff))
+* **odin:** add Odin language support ([#13](https://github.com/Goose97/timber.nvim/issues/13)) ([862c5f9](https://github.com/Goose97/timber.nvim/commit/862c5f9ed6478ebf03f191aaa41f33bea507c055))
+* **odin:** change default template to printfln instead of printf ([#13](https://github.com/Goose97/timber.nvim/issues/13)) ([b516f54](https://github.com/Goose97/timber.nvim/commit/b516f545e53513e1eeb972253e7a3e2d775023d4))
+* **summary:** add summary window ([c58691e](https://github.com/Goose97/timber.nvim/commit/c58691ec90a4591dc40af45d4358c2977006c41e))
+* **summary:** apply source buffer options if summary window has only single source ([83d3f92](https://github.com/Goose97/timber.nvim/commit/83d3f92814d33732ae32f68efbd0a82de99feacb))
+* **summary:** summary window customization ([988dbd0](https://github.com/Goose97/timber.nvim/commit/988dbd0de9492ee4927b5ac6cf71dfbe402c9c03))
+* **summary:** use sequence id as tie-breaker for timestamp sort ([9b44d22](https://github.com/Goose97/timber.nvim/commit/9b44d225ba1a6608740e2579e1f5cd30d9452941))
+* **swift:** add Swift language support ([#18](https://github.com/Goose97/timber.nvim/issues/18)) ([a47f09b](https://github.com/Goose97/timber.nvim/commit/a47f09b3fb43bc23940b3e74036a066926c9b9fa))
+* **template:** add %filename placeholder ([#16](https://github.com/Goose97/timber.nvim/issues/16)) ([f274dc4](https://github.com/Goose97/timber.nvim/commit/f274dc4988c4fae2c87b08a136b9ac427797115a))
+* **watcher:** remove | in the %watcher_marker ([d25e1a8](https://github.com/Goose97/timber.nvim/commit/d25e1a86485fba5b63206947a0fab1841dbcd2da))
+
+
+### Bug Fixes
+
+* **buffers:** make the log snippet always follows log marker line ([451b826](https://github.com/Goose97/timber.nvim/commit/451b8262f11beb9d0a7d78544e1a41ec400ef628))
+* failling CI ([8b855f4](https://github.com/Goose97/timber.nvim/commit/8b855f4a63da24d9b796c1f1438563086e05022a))
+* **summary:** make show help order consistent ([e95cce8](https://github.com/Goose97/timber.nvim/commit/e95cce8acbbe76c2b79ca35f30c24a13410ac60d))
+* test conflicts in parallel ([05d5e2b](https://github.com/Goose97/timber.nvim/commit/05d5e2bde9f218212cd066aca2d240b4ca4b269d))
+* **watcher:** allow capture log in the middle of the line ([7cb8f07](https://github.com/Goose97/timber.nvim/commit/7cb8f076abefe3806a2295205315fb2b0dd73a9c))
+
 ## [2.0.0](https://github.com/Goose97/timber.nvim/compare/v1.0.0...v2.0.0) (2024-12-09)
 
 
